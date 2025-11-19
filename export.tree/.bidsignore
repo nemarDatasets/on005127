@@ -1,0 +1,11 @@
+bids-non-compliant/
+sub*.json
+*.avi
+*.eeg
+*.nii
+*.svd
+*.tsv_real1
+*.vhdr
+*.vpdat
+*.vmrk
+*-slim.txt

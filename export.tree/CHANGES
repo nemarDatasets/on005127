@@ -1,0 +1,13 @@
+1.0.4 2024-10-24
+  - Now really with code/ included...
+1.0.3 2024-10-24
+  - 1.0.3 2024-10-24
+  -  - Added code/ folder that contains functions to read AMRI's .svd file format for IDL, Matlab and python.
+1.0.2 2024-08-07
+  - Added derivatives: EEG-derived sleep scoring; gradient artifact and cardioballistic artifact corrected EEG data; preprocessed fMRI data
+1.0.1 2024-08-06
+  - Updated study information
+1.0.0 2024-05-07
+  - [20240507 JAdZ]: Initial release of 'sleep1', aka the sleep pilot study
+1.0.0	2021-01-26
+	-	Initial release to be BIDS formatted.
