@@ -1,8 +1,0 @@
-{
-	"filename": {
-		"_description": "session identifier"
-	},
-	"acq_time": {
-		"_description": "acquisition start time in RFC3339 of the first sleep (!ses-0) or mprage (ses-0) scan"
-	}
-}
