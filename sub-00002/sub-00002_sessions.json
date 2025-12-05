@@ -1,5 +1,5 @@
 {
-	"filename": {
+	"session_id": {
 		"_description": "session identifier"
 	},
 	"acq_time": {
