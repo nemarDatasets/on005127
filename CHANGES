@@ -1,7 +1,6 @@
 2.0.0 2025-12-11
-    - Updated naming scheme of virtually all files to be more in compliance with
-      BIDS, and identical to sleep2 (doi:10.18112/openneuro.ds006163.v1.0.0).
-    - The derivatives folder now also contains physio_prepro, like sleep2.
+  - Updated naming scheme of virtually all files to be more in compliance with BIDS, and identical to sleep2 (doi:10.18112/openneuro.ds006163.v1.0.0).
+  - The derivatives folder now also contains physio_prepro, like sleep2.
 1.0.4 2024-10-24
     - Now really with code/ included...
 1.0.3 2024-10-24
