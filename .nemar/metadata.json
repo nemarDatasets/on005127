@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "AMRI 16-N-0031 sleep1",
+  "description": "An overnight EEG-fMRI pilot study examining sleep physiology and brain activity during spontaneous arousals. Conducted at the Advanced MRI section of NINDS/NIH in 2016-2017, this dataset comprises simultaneous electroencephalography and functional magnetic resonance imaging recordings from subjects scanned across two consecutive nights (~8 hours each) with eight randomized arousal events per night.",
+  "methods_description": "Overnight EEG-fMRI simultaneous recordings conducted over two consecutive nights (~8 hours per night). Subjects were aroused at random intervals 8 times during each night. Data collection performed at the Advanced MRI section, LFMI, NINDS, National Institutes of Health.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -11,12 +13,27 @@
       "orcid": "0000-0001-8155-8185"
     }
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds005127.v2.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "fMRI"
+    },
+    {
+      "term": "sleep"
+    },
+    {
+      "term": "arousal"
+    },
+    {
+      "term": "simultaneous EEG-fMRI"
+    },
+    {
+      "term": "sleep physiology"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005127",
       "identifier_type": "URL",
@@ -36,6 +53,11 @@
       "identifier": "10.18112/openneuro.ds006163.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsPartOf"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005127.v2.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -43,18 +65,19 @@
       "funder_name": "NINDS/NIH intramural"
     },
     {
-      "funder_name": "NINDS/NIH"
+      "funder_name": "NINDS/NIH",
+      "award_number": "16-N-0031"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "Structural MRI Dataset",
   "modalities": [
     "anat",
     "eeg",
     "func"
   ],
-  "resource_type_specific": "Structural MRI Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "2.4 TB (3611 files)"
   ],
   "formats": [
     ".avi",
@@ -72,38 +95,8 @@
     ".txt",
     ".vhdr",
     ".vmrk",
-    ".vpdat"
+    ".vpdat",
+    ".yml"
   ],
-  "description": "An overnight EEG-fMRI study conducted at the National Institutes of Health examining sleep physiology through simultaneous electroencephalography and functional magnetic resonance imaging. Subjects underwent two consecutive nights of approximately 8-hour scanning sessions with randomized arousal stimuli administered 8 times each night. This pilot study establishes methodology for investigating the neural correlates of sleep and arousal responses.",
-  "methods_description": "Subjects were scanned for two consecutive nights for approximately 8 hours using simultaneous EEG-fMRI acquisition. Subjects were aroused at random intervals 8 times each night.",
-  "keywords": [
-    {
-      "term": "EEG-fMRI"
-    },
-    {
-      "term": "sleep"
-    },
-    {
-      "term": "arousal"
-    },
-    {
-      "term": "simultaneous recording"
-    },
-    {
-      "term": "neuroimaging"
-    },
-    {
-      "term": "fMRI"
-    },
-    {
-      "term": "pilot study"
-    },
-    {
-      "term": "sleep physiology"
-    },
-    {
-      "term": "electroencephalography"
-    }
-  ],
-  "source_hash": "038543c92568c949b3bc1d0b3ce83808bb25eb56628c1103761d8b8b4a8b0850"
+  "source_hash": "98f5d7e93b856c28ea4a7c9dcc07a65b0f959565a326ce60bce5238688a703ba"
 }
