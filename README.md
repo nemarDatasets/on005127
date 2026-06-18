@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on005127-blue)](https://doi.org/10.82901/nemar.on005127)
+
 This dataset contains data from an overnight EEG-fMRI study, performed in the
 Advanced MRI section, LFMI, NINDS, National Institutes of Health, in
 approximately 2016-2017. This study is called 'sleep1', and is the pilot study
