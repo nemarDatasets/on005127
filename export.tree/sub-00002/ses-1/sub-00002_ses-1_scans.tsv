@@ -1,0 +1,7 @@
+filename	acq_time
+func/sub-00002_ses-1_task-wpt_acq-20160531T2243_bold.nii.gz	2016-06-01T02:43:00Z
+func/sub-00002_ses-1_task-wpt_acq-20160531T2247_bold.nii.gz	2016-06-01T02:47:00Z
+eeg/sub-00002_ses-1_task-sleep_acq-20160531T2257_eeg.eeg	2016-06-01T02:57:00Z
+func/sub-00002_ses-1_task-sleep_acq-20160531T2257_bold.nii.gz	2016-06-01T02:57:00Z
+eeg/sub-00002_ses-1_task-sleep_acq-20160531T2330_eeg.eeg	2016-06-01T03:30:00Z
+func/sub-00002_ses-1_task-sleep_acq-20160531T2330_bold.nii.gz	2016-06-01T03:30:00Z
