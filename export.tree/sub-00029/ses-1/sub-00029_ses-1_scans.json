@@ -1,8 +1,0 @@
-{
-	"filename": {
-		"_description": "filename for each run"
-	},
-	"acq_time": {
-		"_description": "acquisition start time in RFC3339"
-	}
-}
