@@ -1,0 +1,8 @@
+{
+	"session_id": {
+		"Description": "session identifier"
+	},
+	"acq_time": {
+		"Description": "acquisition start time in RFC3339 of the first sleep (!ses-0) or mprage (ses-0) scan"
+	}
+}
