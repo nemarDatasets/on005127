@@ -1,0 +1,17 @@
+filename	acq_time
+func/sub-00067_ses-1_task-wpt_acq-20161011T2230_bold.nii.gz	2016-10-12T02:30:00Z
+func/sub-00067_ses-1_task-wpt_acq-20161011T2239_bold.nii.gz	2016-10-12T02:39:00Z
+eeg/sub-00067_ses-1_task-sleep_acq-20161011T2255_eeg.eeg	2016-10-12T02:55:00Z
+func/sub-00067_ses-1_task-sleep_acq-20161011T2255_bold.nii.gz	2016-10-12T02:55:00Z
+eeg/sub-00067_ses-1_task-sleep_acq-20161011T2312_eeg.eeg	2016-10-12T03:12:00Z
+func/sub-00067_ses-1_task-sleep_acq-20161011T2312_bold.nii.gz	2016-10-12T03:12:00Z
+eeg/sub-00067_ses-1_task-sleep_acq-20161011T2340_eeg.eeg	2016-10-12T03:40:00Z
+func/sub-00067_ses-1_task-sleep_acq-20161011T2340_bold.nii.gz	2016-10-12T03:40:00Z
+eeg/sub-00067_ses-1_task-sleep_acq-20161012T0010_eeg.eeg	2016-10-12T04:10:00Z
+func/sub-00067_ses-1_task-sleep_acq-20161012T0010_bold.nii.gz	2016-10-12T04:10:00Z
+eeg/sub-00067_ses-1_task-sleep_acq-20161012T0025_eeg.eeg	2016-10-12T04:25:00Z
+func/sub-00067_ses-1_task-sleep_acq-20161012T0025_bold.nii.gz	2016-10-12T04:25:00Z
+eeg/sub-00067_ses-1_task-sleep_acq-20161012T0311_eeg.eeg	2016-10-12T07:11:00Z
+func/sub-00067_ses-1_task-sleep_acq-20161012T0311_bold.nii.gz	2016-10-12T07:11:00Z
+eeg/sub-00067_ses-1_task-sleep_acq-20161012T0342_eeg.eeg	2016-10-12T07:42:00Z
+func/sub-00067_ses-1_task-sleep_acq-20161012T0342_bold.nii.gz	2016-10-12T07:42:00Z
