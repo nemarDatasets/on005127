@@ -1,0 +1,17 @@
+filename	acq_time
+func/sub-00105_ses-2_task-wpt_acq-20170412T2210_bold.nii.gz	2017-04-13T02:10:00Z
+func/sub-00105_ses-2_task-wpt_acq-20170412T2214_bold.nii.gz	2017-04-13T02:14:00Z
+func/sub-00105_ses-2_task-motion_acq-20170412T2220_bold.nii.gz	2017-04-13T02:20:00Z
+func/sub-00105_ses-2_task-ecc_acq-20170412T2227_bold.nii.gz	2017-04-13T02:27:00Z
+func/sub-00105_ses-2_task-icc_acq-20170412T2235_bold.nii.gz	2017-04-13T02:35:00Z
+func/sub-00105_ses-2_task-rest_acq-20170412T2244_bold.nii.gz	2017-04-13T02:44:00Z
+eeg/sub-00105_ses-2_task-sleep_acq-20170412T2304_eeg.eeg	2017-04-13T03:04:00Z
+func/sub-00105_ses-2_task-sleep_acq-20170412T2304_bold.nii.gz	2017-04-13T03:04:00Z
+eeg/sub-00105_ses-2_task-sleep_acq-20170413T0112_eeg.eeg	2017-04-13T05:12:00Z
+func/sub-00105_ses-2_task-sleep_acq-20170413T0112_bold.nii.gz	2017-04-13T05:12:00Z
+eeg/sub-00105_ses-2_task-sleep_acq-20170413T0303_eeg.eeg	2017-04-13T07:03:00Z
+func/sub-00105_ses-2_task-sleep_acq-20170413T0303_bold.nii.gz	2017-04-13T07:03:00Z
+eeg/sub-00105_ses-2_task-sleep_acq-20170413T0406_eeg.eeg	2017-04-13T08:06:00Z
+func/sub-00105_ses-2_task-sleep_acq-20170413T0406_bold.nii.gz	2017-04-13T08:06:00Z
+eeg/sub-00105_ses-2_task-sleep_acq-20170413T0535_eeg.eeg	2017-04-13T09:35:00Z
+func/sub-00105_ses-2_task-sleep_acq-20170413T0535_bold.nii.gz	2017-04-13T09:35:00Z
