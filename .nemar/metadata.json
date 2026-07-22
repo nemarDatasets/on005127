@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "AMRI 16-N-0031 sleep1",
-  "description": "An overnight EEG-fMRI pilot study examining sleep physiology and brain activity during spontaneous arousals. Approximately 20 subjects underwent two consecutive nights of simultaneous EEG and fMRI recording (~8 hours per night) with 8 randomized arousal events per night. This dataset serves as the foundational pilot for a larger follow-up study (sleep2) and provides multimodal neuroimaging data during sleep stages and arousal transitions.",
-  "methods_description": "Overnight EEG-fMRI simultaneous recording performed over two consecutive nights (~8 hours per night). Subjects were aroused at random intervals 8 times during each night. Data collection conducted at the Advanced MRI section, LFMI, NINDS, NIH during 2016-2017.",
+  "description": "An overnight EEG-fMRI study conducted at the Advanced MRI section of NINDS/NIH, examining sleep physiology through simultaneous electroencephalography and functional magnetic resonance imaging. This pilot study involved multiple subjects who underwent two consecutive nights of approximately 8-hour scanning sessions with randomized arousal stimuli administered 8 times per night. This pilot investigation (sleep1) established protocols later expanded in a larger follow-up study (sleep2).",
+  "methods_description": "Overnight EEG-fMRI acquisition performed over two consecutive nights for approximately 8 hours per session. Subjects were aroused at random intervals 8 times during each night. This pilot study established the protocols and procedures that were subsequently expanded in the sleep2 investigation.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -24,32 +24,33 @@
       "term": "sleep"
     },
     {
-      "term": "arousal"
-    },
-    {
-      "term": "multimodal neuroimaging"
-    },
-    {
-      "term": "brain activity"
-    },
-    {
       "term": "simultaneous EEG-fMRI"
     },
     {
-      "term": "sleep stages"
+      "term": "arousal"
+    },
+    {
+      "term": "neuroimaging"
     },
     {
       "term": "pilot study"
+    },
+    {
+      "term": "multimodal"
+    },
+    {
+      "term": "sleep physiology"
+    },
+    {
+      "term": "overnight recording"
+    },
+    {
+      "term": "NINDS"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005127",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005127",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -67,6 +68,11 @@
       "identifier": "10.18112/openneuro.ds005127.v2.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005127",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -74,7 +80,10 @@
       "funder_name": "NINDS/NIH intramural"
     },
     {
-      "funder_name": "NIH",
+      "funder_name": "NINDS/NIH"
+    },
+    {
+      "funder_name": "NINDS/NIH",
       "award_number": "16-N-0031"
     }
   ],
