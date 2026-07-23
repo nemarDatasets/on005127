@@ -1,0 +1,385 @@
+{
+  "dataset_id": "on005127",
+  "version": "1.0.0",
+  "generated_at": "2026-07-23T01:02:49.394Z",
+  "source": {
+    "type": "openneuro",
+    "id": "ds005127"
+  },
+  "complete": false,
+  "completeness": {
+    "files_present": 3620,
+    "files_declared": 3681,
+    "bytes_present": 2390262748405,
+    "bytes_declared": 2422377463702,
+    "pct_bytes": 0.9867424809806806
+  },
+  "missing": [
+    {
+      "path": "sub-00105/ses-0/anat/sub-00105_ses-0_acq-t13dsag_T1w.nii.gz",
+      "key": "SHA256E-s6660124--65ae817b13fc6be906d3c55d7fd57521f070446394e3dc28498187538d2e8049.nii.gz",
+      "declared_size": 6660124,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-0/anat/sub-00105_ses-0_acq-t1ax_T1w.nii.gz",
+      "key": "SHA256E-s5471554--e65cddfb3928498503924d0bd45ce24b337bde072b80079aa26cc7efed5707fd.nii.gz",
+      "declared_size": 5471554,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-0/anat/sub-00105_ses-0_acq-t1sag_T1w.nii.gz",
+      "key": "SHA256E-s2987291--10bdabcb97e38513e87cb17c44ed2b38472c9e28fbf09570258332d4ee292404.nii.gz",
+      "declared_size": 2987291,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-0/anat/sub-00105_ses-0_acq-t2_T2w.nii.gz",
+      "key": "SHA256E-s4140456--9d75de4ef5cba1ccbdfafee08264582678a872fa1c16191b43d5b81e12b93476.nii.gz",
+      "declared_size": 4140456,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-1/eeg/sub-00105_ses-1_task-sleep_acq-20170411T2255_eeg.vhdr",
+      "key": "SHA256E-s13102--5e0761f34f474377d1a85e709527750b96ee4249b81fa511b8f19615f9fa82ed.vhdr",
+      "declared_size": 13102,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-1/eeg/sub-00105_ses-1_task-sleep_acq-20170411T2255_eeg.vmrk",
+      "key": "SHA256E-s42535--720bf9cf3b0743b159d98040660cbdbaf1ece229f6155931084564c482ae7336.vmrk",
+      "declared_size": 42535,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-1/eeg/sub-00105_ses-1_task-sleep_acq-20170411T2325_eeg.vhdr",
+      "key": "SHA256E-s13102--315afbc7ea754f8910a56622dd913d96583c7c25d0a8e7975e6b29e0861c32ca.vhdr",
+      "declared_size": 13102,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-1/eeg/sub-00105_ses-1_task-sleep_acq-20170411T2325_eeg.vmrk",
+      "key": "SHA256E-s49968--75ab5363eff27cb8c7e63ee83a80ae08283efaec6b4bcb652236cbfc5b4d1122.vmrk",
+      "declared_size": 49968,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-1/eeg/sub-00105_ses-1_task-sleep_acq-20170412T0010_eeg.vhdr",
+      "key": "SHA256E-s13085--e4585f3c8c0e986323c1bda20dacb24c92b7ea48c138109f1b2eee18167aee4b.vhdr",
+      "declared_size": 13085,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-1/eeg/sub-00105_ses-1_task-sleep_acq-20170412T0010_eeg.vmrk",
+      "key": "SHA256E-s53832--584f92e953c7e3d899bd6f33345fdd104d21946490de12370c7f7a09e0f4f75f.vmrk",
+      "declared_size": 53832,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-1/eeg/sub-00105_ses-1_task-sleep_acq-20170412T0045_eeg.vhdr",
+      "key": "SHA256E-s13085--0b99273cba9bf03989c81298345e8a3bccb12a62171cb4bd74ee528618cd50cd.vhdr",
+      "declared_size": 13085,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-1/eeg/sub-00105_ses-1_task-sleep_acq-20170412T0045_eeg.vmrk",
+      "key": "SHA256E-s150503--6f9ff72bbaedf4ab125c58a80e4df8d748c0a987ed534934b2c2839d42d9e87a.vmrk",
+      "declared_size": 150503,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-1/eeg/sub-00105_ses-1_task-sleep_acq-20170412T0215_eeg.vhdr",
+      "key": "SHA256E-s13085--17af977f560d2f06f64e69cdaaf4965d81d687be29625483c232410521bba5c8.vhdr",
+      "declared_size": 13085,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-1/eeg/sub-00105_ses-1_task-sleep_acq-20170412T0215_eeg.vmrk",
+      "key": "SHA256E-s129431--7d232d08fe0bbb1340f251f74246ad74b816beced196e7edd4221fa4c5326fd3.vmrk",
+      "declared_size": 129431,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-1/eeg/sub-00105_ses-1_task-sleep_acq-20170412T0350_eeg.vhdr",
+      "key": "SHA256E-s13085--d20556a4a5ba280bb70af2f93684d964201c7b70f00ee2908f2203943718fdf2.vhdr",
+      "declared_size": 13085,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-1/eeg/sub-00105_ses-1_task-sleep_acq-20170412T0350_eeg.vmrk",
+      "key": "SHA256E-s227289--16ec7462b292c22a38bbdda53ccb0f347ea81100d4a7e91f816b8c880263bc33.vmrk",
+      "declared_size": 227289,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-1/eeg/sub-00105_ses-1_task-sleep_acq-20170412T0555_eeg.vhdr",
+      "key": "SHA256E-s13085--f50fd851ad357bb35dccd3e2cc6e9217908558659323cbd2cc3afc012408316d.vhdr",
+      "declared_size": 13085,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-1/eeg/sub-00105_ses-1_task-sleep_acq-20170412T0555_eeg.vmrk",
+      "key": "SHA256E-s19380--2d45e0a5f13dc892cb20d6797f6d3bf6c75a65cf7742d99ad879c66cb21ccc10.vmrk",
+      "declared_size": 19380,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-1/eeg/sub-00105_ses-1_task-sleep_acq-20170412T0613_eeg.vhdr",
+      "key": "SHA256E-s13085--08d252308b4e1b05d6f2d3ebc52934feafa544e8f354321de2f9cb9f5555f466.vhdr",
+      "declared_size": 13085,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-1/eeg/sub-00105_ses-1_task-sleep_acq-20170412T0613_eeg.vmrk",
+      "key": "SHA256E-s62200--af17c26ca866b731eb82b51b2e48589b27849f39177ead5836174753e8cdf50a.vmrk",
+      "declared_size": 62200,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-1/func-complex/sub-00105_ses-1_task-sleep_acq-20170411T2255_bold.nii.gz",
+      "key": "SHA256E-s1148837542--5db1129a1c5653439e568b9f45dc3571e77128bd71a8f878c4a22a72e7ea1231.nii.gz",
+      "declared_size": 1148837542,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-1/func-complex/sub-00105_ses-1_task-sleep_acq-20170411T2325_bold.nii.gz",
+      "key": "SHA256E-s1360830562--fddea31d8d044e1965616a0803a1ea47215c2407083915db1ec72e5a4f81ff29.nii.gz",
+      "declared_size": 1360830562,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-1/func-complex/sub-00105_ses-1_task-sleep_acq-20170412T0010_bold.nii.gz",
+      "key": "SHA256E-s1462811035--d15b3be99561d257a8c7a46b9e6e1de70edf08d0155c1ded945a8b9924ddbadd.nii.gz",
+      "declared_size": 1462811035,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-1/func-complex/sub-00105_ses-1_task-sleep_acq-20170412T0045_bold.nii.gz",
+      "key": "SHA256E-s4129474374--2b1c6d5668a384225cbe59ef26c3cd096994e5675840545bdd70116c0c33d46f.nii.gz",
+      "declared_size": 4129474374,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-2/anat/sub-00105_ses-2_acq-dtiap_T2w.nii.gz",
+      "key": "SHA256E-s48746689--49b1a82edf6d5373b76ce0e8887a75f6f406728aaffd2d073e2637d2b385e4ab.nii.gz",
+      "declared_size": 48746689,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-2/anat/sub-00105_ses-2_acq-dtipa_T2w.nii.gz",
+      "key": "SHA256E-s48260367--4660ca1f3eb84e15aaa3ece251579a8204834b6124747349ea721632ea1eb465.nii.gz",
+      "declared_size": 48260367,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-2/anat/sub-00105_ses-2_acq-mprage_T1w.nii.gz",
+      "key": "SHA256E-s9925308--240de6afbdd952887389b1a56f6f45e335401b5c020df6ba36ab2e413a4c902c.nii.gz",
+      "declared_size": 9925308,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-2/anat/sub-00105_ses-2_acq-t2_T2w.nii.gz",
+      "key": "SHA256E-s6475708--7ba0df9a538b1cfce1cfef73514c26ef2729d0cf60f92c78985c984e2b0bc1aa.nii.gz",
+      "declared_size": 6475708,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-2/eeg/sub-00105_ses-2_task-sleep_acq-20170412T2304_eeg.vhdr",
+      "key": "SHA256E-s13102--a04cace851ecbffdae0632cec796ddc7662c7e46ba0bb0737d327f4cad7b7417.vhdr",
+      "declared_size": 13102,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-2/eeg/sub-00105_ses-2_task-sleep_acq-20170412T2304_eeg.vmrk",
+      "key": "SHA256E-s130446--44168b4d6c1e5f4db8a0b097e08226bb38be96a71705557eff2c7c2b72c20167.vmrk",
+      "declared_size": 130446,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-2/eeg/sub-00105_ses-2_task-sleep_acq-20170413T0112_eeg.vhdr",
+      "key": "SHA256E-s13085--a1cf27158917faf4ac0c1c9d81250aa9418af91ce464967ad5fce3224bc73ef1.vhdr",
+      "declared_size": 13085,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-2/eeg/sub-00105_ses-2_task-sleep_acq-20170413T0112_eeg.vmrk",
+      "key": "SHA256E-s194248--4817fb2b218f2f0b914bbeca23d68f8e8cfc3c8dcf627e69046a5c748929007e.vmrk",
+      "declared_size": 194248,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-2/eeg/sub-00105_ses-2_task-sleep_acq-20170413T0303_eeg.vhdr",
+      "key": "SHA256E-s13085--9874f08e9157c2bf3c296f27da16753d26fce23dc7b64cbcac523d64a8c52e34.vhdr",
+      "declared_size": 13085,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-2/eeg/sub-00105_ses-2_task-sleep_acq-20170413T0303_eeg.vmrk",
+      "key": "SHA256E-s108328--40bc0c98a42ec836923851d12d82e28e47ae78cd9adb9b49d7233b0ef489133c.vmrk",
+      "declared_size": 108328,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-2/eeg/sub-00105_ses-2_task-sleep_acq-20170413T0406_eeg.vhdr",
+      "key": "SHA256E-s13085--a09d75433b18e8eb585d37cc1bc74ba63225cba7988251d8c3458fec122a62b4.vhdr",
+      "declared_size": 13085,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-2/eeg/sub-00105_ses-2_task-sleep_acq-20170413T0406_eeg.vmrk",
+      "key": "SHA256E-s151881--7df26142951feafdd8e90e17d0da201eec38e21645c00d35d0f8983f13c4a595.vmrk",
+      "declared_size": 151881,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-2/eeg/sub-00105_ses-2_task-sleep_acq-20170413T0535_eeg.vhdr",
+      "key": "SHA256E-s13085--84b71c47ad233c01abb6988d1bb4b0068b7ad33ebe6b66dfaef7c2b2f666277d.vhdr",
+      "declared_size": 13085,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-2/eeg/sub-00105_ses-2_task-sleep_acq-20170413T0535_eeg.vmrk",
+      "key": "SHA256E-s137540--ebb9d58c26c2b61919955458106bc5fdd2244dbe6a63dd85cc399314acc62203.vmrk",
+      "declared_size": 137540,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-2/func-complex/sub-00105_ses-2_task-ecc_acq-20170412T2227_bold.nii.gz",
+      "key": "SHA256E-s261627376--c9f9509cbc70c9f213f0564714706da879bb8c6db4f428bb4235cef6b1cfc51c.nii.gz",
+      "declared_size": 261627376,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-2/func-complex/sub-00105_ses-2_task-icc_acq-20170412T2235_bold.nii.gz",
+      "key": "SHA256E-s316553206--f64272355fb3b009be863b64379a878e35d1dd6a00f97ad7e0630d43e2e8ea97.nii.gz",
+      "declared_size": 316553206,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-2/func-complex/sub-00105_ses-2_task-motion_acq-20170412T2220_bold.nii.gz",
+      "key": "SHA256E-s211909639--9a5ce9db76b34913a465fcc1274501573a044227a821670e3ceacce03e9a2d42.nii.gz",
+      "declared_size": 211909639,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-2/func-complex/sub-00105_ses-2_task-rest_acq-20170412T2244_bold.nii.gz",
+      "key": "SHA256E-s261620891--6fac6071cdfe968bb8931a06d65b3ca64c5904e564998cc9e9938a8ceb198e87.nii.gz",
+      "declared_size": 261620891,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-2/func-complex/sub-00105_ses-2_task-sleep_acq-20170412T2304_bold.nii.gz",
+      "key": "SHA256E-s3587220680--c4e2a627e09161ebc60f39aed5aa7ab185117f23536ecee317cdb6b48acf6d3d.nii.gz",
+      "declared_size": 3587220680,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-2/func-complex/sub-00105_ses-2_task-sleep_acq-20170413T0112_bold.nii.gz",
+      "key": "SHA256E-s5316920064--dccbd9b2135b26bb8aab6543b0791c55564c52b9de9e45cffa0343d533cc167e.nii.gz",
+      "declared_size": 5316920064,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-2/func-complex/sub-00105_ses-2_task-sleep_acq-20170413T0303_bold.nii.gz",
+      "key": "SHA256E-s2993144101--44441070110d0acd36c99e8cd80e1368a568945e52ab05b2720236d5854475d0.nii.gz",
+      "declared_size": 2993144101,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-2/func-complex/sub-00105_ses-2_task-sleep_acq-20170413T0406_bold.nii.gz",
+      "key": "SHA256E-s4123822623--7a24cc13af4fd191f1ec9439bda8447030fe6dd8e7ba607a1a0025824bc12299.nii.gz",
+      "declared_size": 4123822623,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-2/func-complex/sub-00105_ses-2_task-sleep_acq-20170413T0535_bold.nii.gz",
+      "key": "SHA256E-s3773257125--8f4def36d2ea955fe0c9462363d62c47baa68ef919cbd474776d968c37ded97e.nii.gz",
+      "declared_size": 3773257125,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-2/func-complex/sub-00105_ses-2_task-wpt_acq-20170412T2210_bold.nii.gz",
+      "key": "SHA256E-s96801433--1316826afd44a934f2361b0d12e263733124d75129196bc9ca1a282f21e7ed06.nii.gz",
+      "declared_size": 96801433,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-2/func-complex/sub-00105_ses-2_task-wpt_acq-20170412T2214_bold.nii.gz",
+      "key": "SHA256E-s138645105--4623fae7d60d8080fab83ecc47917a528b912f2f181eb1b2933609fc3d0d395b.nii.gz",
+      "declared_size": 138645105,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-2/func/sub-00105_ses-2_task-ecc_acq-20170412T2227_bold.nii.gz",
+      "key": "SHA256E-s34611797--2844fa2e94a60153cdf84e4978cc4c774e0f59ba48c8676aca895cd132e96e35.nii.gz",
+      "declared_size": 34611797,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-2/func/sub-00105_ses-2_task-icc_acq-20170412T2235_bold.nii.gz",
+      "key": "SHA256E-s41840835--251a173bcd247592491163caeda0c26b81882f09f37f8213fd9fec0e6b30f72c.nii.gz",
+      "declared_size": 41840835,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-2/func/sub-00105_ses-2_task-motion_acq-20170412T2220_bold.nii.gz",
+      "key": "SHA256E-s28002985--80564a88bfa93d8e855eee06f0cb04542277f27ab003abeed909779a9632a314.nii.gz",
+      "declared_size": 28002985,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-2/func/sub-00105_ses-2_task-rest_acq-20170412T2244_bold.nii.gz",
+      "key": "SHA256E-s34555640--84b27ea3f6488fe2f17b8aed17f5f32e8f519701e2b91e6b35c98e23bafd5f6b.nii.gz",
+      "declared_size": 34555640,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-2/func/sub-00105_ses-2_task-sleep_acq-20170412T2304_bold.nii.gz",
+      "key": "SHA256E-s475005692--79d68d8d828833f9be8bfd8d16054896e31167e864cf3284b4d537de80170b22.nii.gz",
+      "declared_size": 475005692,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-2/func/sub-00105_ses-2_task-sleep_acq-20170413T0112_bold.nii.gz",
+      "key": "SHA256E-s704962395--8e34aa44611c7208bddbcca133754d5a921bca118abb4bfd7c3171ff8ee4eb8f.nii.gz",
+      "declared_size": 704962395,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-2/func/sub-00105_ses-2_task-sleep_acq-20170413T0303_bold.nii.gz",
+      "key": "SHA256E-s398544073--91564d929d44c5bb45cbe4864c2d0d5002c2ec6c66902322091680c5161b16d1.nii.gz",
+      "declared_size": 398544073,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-2/func/sub-00105_ses-2_task-sleep_acq-20170413T0406_bold.nii.gz",
+      "key": "SHA256E-s547609532--ed2075a64cee00593fdd6aeb4ee281f580d85e42b83dcff8be69fe3f4a54f6b3.nii.gz",
+      "declared_size": 547609532,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-2/func/sub-00105_ses-2_task-sleep_acq-20170413T0535_bold.nii.gz",
+      "key": "SHA256E-s499106500--eac3978ddf9febfd774e42ebbc7ea69847d990e5fff2f2b1369819405fda2e58.nii.gz",
+      "declared_size": 499106500,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-2/func/sub-00105_ses-2_task-wpt_acq-20170412T2210_bold.nii.gz",
+      "key": "SHA256E-s12773214--7a9db4484cebf98c2154f2ca1ec3b3ff1261505298f6be917e06d29a65f10617.nii.gz",
+      "declared_size": 12773214,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-2/func/sub-00105_ses-2_task-wpt_acq-20170412T2214_bold.nii.gz",
+      "key": "SHA256E-s18350351--7bcd6c7c38256a7c91a87f2b7ad4dcf3ace29228a93e4a47ac0d2310e031e8c9.nii.gz",
+      "declared_size": 18350351,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-00105/ses-2/misc/sub-00105_ses-2_desc-slim.txt",
+      "key": "SHA256E-s834--ccfe325e4153be0ff8d1ff0a6ed2da93569716165c478350fdc307b82cdbfefb.txt",
+      "declared_size": 834,
+      "reason": "absent"
+    }
+  ]
+}
