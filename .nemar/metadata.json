@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "AMRI 16-N-0031 sleep1",
-  "description": "An overnight EEG-fMRI study conducted at the Advanced MRI section of NINDS/NIH, examining sleep physiology through simultaneous electroencephalography and functional magnetic resonance imaging. This pilot study involved multiple subjects who underwent two consecutive nights of approximately 8-hour scanning sessions with randomized arousal stimuli administered 8 times per night. This pilot investigation (sleep1) established protocols later expanded in a larger follow-up study (sleep2).",
-  "methods_description": "Overnight EEG-fMRI acquisition performed over two consecutive nights for approximately 8 hours per session. Subjects were aroused at random intervals 8 times during each night. This pilot study established the protocols and procedures that were subsequently expanded in the sleep2 investigation.",
+  "description": "Overnight simultaneous EEG-fMRI recordings from a pilot sleep study (sleep1) conducted at the Advanced MRI section of NINDS, NIH, around 2016-2017. Subjects were scanned for approximately 8 hours across two consecutive nights and were aroused at random intervals eight times per night. The dataset is the pilot for the later sleep2 study.",
+  "methods_description": "Participants underwent simultaneous EEG and fMRI for about 8 hours on each of two consecutive nights, with 8 randomly timed arousals during the night.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -21,31 +21,18 @@
       "term": "fMRI"
     },
     {
-      "term": "sleep"
+      "term": "Sleep",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D012890"
     },
     {
       "term": "simultaneous EEG-fMRI"
     },
     {
-      "term": "arousal"
-    },
-    {
-      "term": "neuroimaging"
-    },
-    {
-      "term": "pilot study"
-    },
-    {
-      "term": "multimodal"
-    },
-    {
-      "term": "sleep physiology"
-    },
-    {
       "term": "overnight recording"
     },
     {
-      "term": "NINDS"
+      "term": "arousal"
     }
   ],
   "related_identifiers": [
@@ -78,13 +65,6 @@
   "funding_references": [
     {
       "funder_name": "NINDS/NIH intramural"
-    },
-    {
-      "funder_name": "NINDS/NIH"
-    },
-    {
-      "funder_name": "NINDS/NIH",
-      "award_number": "16-N-0031"
     }
   ],
   "resource_type_general": "Dataset",
@@ -95,7 +75,7 @@
     "func"
   ],
   "sizes": [
-    "2.4 TB (3611 files)"
+    "2.20 TB (3672 files)"
   ],
   "formats": [
     ".avi",
